@@ -1,0 +1,94 @@
+* {
+    padding: 0; margin: 0; box-sizing: border-box;
+    border-radius: 10px; 
+  }
+  
+  .button {
+      cursor: pointer;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  main {
+    width: 350px;
+    height: 500px;
+    padding: 15px;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .first-row {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+    
+    margin-bottom: 5px;
+    border: 2px solid black;
+  }
+  
+  .display {  
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+    font-family: sans-serif;
+    padding-right: 10px;
+    flex: 4;
+  }
+  
+  .line {
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .display.small {
+    font-size: 25px;
+  }
+  
+  .display.big {
+    flex: 6;
+    font-size: 50px;
+  }
+  
+  .btt-grp {
+    display: flex;
+    gap: 15px;
+    padding: 4px 0;
+  }
+  
+  .btt-grp > * {
+    flex: 1;
+    border: 2px solid black;
+  }
+  
+  .button {
+    font-family: arial;
+    font-size: 20px;
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .operator {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  .button:hover {
+    background: rgb(200,200,200);
+  }
+  
+  
